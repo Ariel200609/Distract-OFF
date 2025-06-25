@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
     img.alt = section.title;
     img.style.width = "100%";
     img.style.borderRadius = "12px";
-    img.style.margin = "20px 0";
+    img.style.margin = "20px 235px";
 
     sec.appendChild(h2);
     sec.appendChild(img);

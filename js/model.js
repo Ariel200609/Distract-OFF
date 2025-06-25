@@ -7,7 +7,7 @@ const sections = [
   {
     title: "Our Solution",
     text: "Our solution is Distract-off. It's a smart app with artificial intelligence that helps you stay focused. It blocks the apps and notifications that take your attention away. It also gives you points each time you use the app.",
-    image:"assets/solucion.jpg" 
+    image:"assets/logo.png" 
   },
   {
     title: "Gamification & Rewards",
