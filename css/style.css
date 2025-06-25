@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #f0f8ff;
+  color: #333;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+/* ======= HEADER ======= */
+header {
+  background-color: #c09ad9;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  animation: fadeIn 1.5s ease;
+}
+
+header i {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+h1.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 62px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+/* ======= SECTIONS ======= */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+  text-align: center;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+section:nth-child(even) {
+  background-color: #e6f2ff;
+}
+
+section img {
+  width: 60%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 30px ;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #683e6d;
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+section p {
+  font-size: 20px;
+  padding: 0 30px;
+  text-align: justify;
+}
+
+/* ======= CTA ======= */
+.cta {
+  background-color: #d0ebff;
+  text-align: center;
+  padding: 50px 20px;
+  animation: fadeIn 1.5s ease;
+}
+
+.cta h2 {
+  font-size: 36px;
+  color: #5c296d;
+  margin-bottom: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.cta p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cta button {
+  padding: 14px 28px;
+  background-color: #e36adb;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta button:hover {
+  background-color: #5c296d;
+}
+
+/* ======= FOOTER ======= */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #370245;
+  color: white;
+  font-size: 14px;
+}
+
+/* ======= ANIMATIONS ======= */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
