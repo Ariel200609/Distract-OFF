@@ -1,22 +1,22 @@
 const sections = [
   {
-    title: "The Problem",
-    text: "Today, we all have the same problem. We know that currently it's very difficult to pay attention with the social media. Our phones, tablets, and computers are full of apps, notifications, and websites that are made to get our attention, especially when we are doing something important like studying. ",
+    title: "📱 Distractions are everywhere ",
+    text: "Today, it's hard to concentrate. Social media, notifications, and apps are made to grab our attention, especially when we're trying to study.",
     image: "./assets/problema.jpg" 
   },
   {
-    title: "Our Solution",
-    text: "Our solution is Distract-off. It's a smart app with artificial intelligence that helps you stay focused. It blocks the apps and notifications that take your attention away. It also gives you points each time you use the app.",
+    title: "🤖 Distract-off: the smart app to stay focused.",
+    text: "Our app uses artificial intelligence to block distractions and help you stay focused when you need it the most.",
     image:"assets/logo.png" 
   },
   {
-    title: "Gamification & Rewards",
-    text: "These points can be exchanged for real rewards, like discounts, gift cards, or special offers. Also if you love video-games or competitions you can invite friends (or virtual friends) to use the application and complete daily goals, and get more points to obtain more benefits. ",
+    title: "🎁 Focus and get real rewards.",
+    text: "Each time you use the app, you earn points. You can exchange them for real prizes like discounts, gift cards, or special offers.",
     image: "assets/recompensas.jpg" 
   },
   {
-    title: "Final Message",
-    text: "We believe staying focused should not feel like a fight. With Distract-off, your device becomes a tool that helps you, not a problem that stops you. We invite you to use Distract-off free for two weeks. Take back your time. Focus. and get rewarded for it.",
+    title: "🔒 Take back control of your time.",
+    text: "With Distract-off, your device becomes your ally, not a problem. Try it free for two weeks and start focusing better today.",
     image: "assets/ganador.jpg" 
   }
 ];
